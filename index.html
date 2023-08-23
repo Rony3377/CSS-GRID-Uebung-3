@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>css übungen</title>
+    <style>
+      .menu-1 {
+        display: flex; /*bringt von inhalt zum fließen*/
+        justify-content: space-between; /*steuert den fluss auf der x-achse*/
+        flex-wrap: wrap; /*brechene auf nächste ziele*/
+      }
+      .menu-2 {
+        display: flex; /*bringt von inhalt zum fließen*/
+        justify-content: center; /*steuert den fluss auf der x-achse*/
+        flex-wrap: wrap; /*brechene auf nächste ziele*/
+      }
+      .menu-3 {
+        display: flex; /*bringt von inhalt zum fließen*/
+        justify-content: space-around; /*steuert den fluss auf der x-achse*/
+        flex-wrap: wrap; /*brechene auf nächste ziele*/
+      }
+
+      main {
+        display: flex; /*bringt von inhalt zum fließen*/
+        justify-content: center; /*steuert den fluss auf der x-achse*/
+        flex-wrap: wrap; /*brechene auf nächste ziele*/
+      }
+      main img {
+        height: 200px;
+      }
+      main p {
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+      }
+      footer {
+        display: flex; /*bringt von inhalt zum fließen*/
+        justify-content: center; /*steuert den fluss auf der x-achse*/
+        flex-wrap: wrap; /*brechene auf nächste ziele*/
+      }
+      footer img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="menu-1">
+      <div class="menu-2">
+        <img src="ss.png" />
+        <img src="email.png" />
+      </div>
+      <div class="menu-3">
+        <div class="menu-4">
+          <a href="index.html">starseite</a>
+          <a href="kontakt.html">kontakt</a>
+        </div>
+        <div>suchen: <input type="text" /></div>
+      </div>
+    </header>
+    <main>
+      <img
+        src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/117929395.jpg?k=3b333e72b2a5e4a94b4a2ea95cb8e93b9f25448301415d8a4a8674ceb8426273&o="
+      />
+      <p>
+        Sonne satt, malerische Strände, antike Kultur, Top All-Inclusive Hotels:
+        Entdecke Ägypten! Entdecke die beliebtesten & schönsten Reiseziele &
+        spare bis 50% - Dein Glück beginnt hier
+      </p>
+      <img
+        src="https://media-cdn.holidaycheck.com/w_1280,h_720,c_fill,q_80/ugc/images/c285a66c-98df-3c37-93fb-88c3fe9914a8"
+      />
+    </main>
+  </body>
+  <br />
+  <br />
+  <br />
+
+  <footer>
+    <img
+      src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/33989276.jpg?k=035901ac2366bc7abb25887c4c97dd69b6532f341be36d27307855fbf581bf50&o="
+    />
+  </footer>
+</html>
